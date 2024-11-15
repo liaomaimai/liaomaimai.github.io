@@ -7,7 +7,7 @@ first_name: Liao
 middle_name: mai
 email: 498269108@qq.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  this is a Portfolio website of mai's design.
+  this is a Portfolio website of mai.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -60,6 +60,7 @@ max_width: 930px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
+# 渲染一个社交媒体的页面
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
@@ -67,6 +68,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
+# 社会融合，intergration 一体化
 # -----------------------------------------------------------------------------
 
 acm_id: # your dl.acm.org/profile/id
@@ -76,7 +78,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: # your GitHub user name
+github_username:liaomaimai # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
@@ -129,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: encode landscape # blog_name will be displayed in your blog page
+blog_name: study notebook # blog_name will be displayed in your blog page
 blog_description: demo about my ideas
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
